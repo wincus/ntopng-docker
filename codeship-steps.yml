@@ -2,8 +2,8 @@
   type: serial
   service: app
   encrypted_dockercfg_path: codeship-dockercfg.encrypted
+  steps:
   - name: Push master builds
-    type: serial
-    tag: master
+    type: push
     image_name: wincus/ntop
     image_tag: dev
