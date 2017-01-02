@@ -1,0 +1,4 @@
+app:
+  build:
+    image: wincus/ntop:dev
+    dockerfile_path: Dockerfile

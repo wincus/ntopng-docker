@@ -1,0 +1,8 @@
+# Codeship
+codeship.aes
+*.env
+*dockercfg
+tmp
+
+# Filesystem
+.DS_Store

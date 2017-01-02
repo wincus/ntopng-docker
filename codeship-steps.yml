@@ -1,0 +1,9 @@
+- name: Registry
+  type: serial
+  service: app
+  encrypted_dockercfg_path: codeship-dockercfg.encrypted
+  - name: Push master builds
+    type: serial
+    tag: master
+    image_name: wincus/ntop
+    image_tag: dev
